@@ -1,287 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic portfolio of Dr. Halil Mert Erdoğan, archaeologist and assistant professor specializing in Roman Lycia, architectural archaeology and digital heritage.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Halil Mert Erdoğan — Assistant Professor of Archaeology. Exploring the human past through archaeology." />
   <title>Halil Mert Erdoğan | Archaeologist</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="#top">Halil Mert Erdoğan</a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
-      <nav id="menu">
-        <a href="#profile">Profile</a>
-        <a href="#projects">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#fieldwork">Fieldwork</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <a class="brand" href="#top">Halil Mert Erdoğan</a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav class="site-nav">
+      <a href="#biography">Biography</a><a href="#fieldwork">Fieldwork</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+    </nav>
   </header>
-
   <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="kicker">Roman Lycia · Architectural Archaeology · Digital Heritage</p>
-          <h1>Halil Mert<br>Erdoğan</h1>
-          <p class="role">Assistant Professor of Archaeology</p>
-          <p class="lead">
-            Researching architecture, religion and cultural heritage in the ancient Mediterranean.
-          </p>
-          <div class="hero-links">
-            <a class="button primary" href="#projects">Explore Research</a>
-            <a class="button ghost" href="assets/Halil-Mert-Erdogan-CV.pdf">Download CV</a>
-          </div>
-        </div>
-
-        <figure class="hero-image image-panel">
-          <img src="assets/hero.jpg" alt="Halil Mert Erdoğan during archaeological fieldwork">
-          <figcaption>Field archaeology · Olympos</figcaption>
-        </figure>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Assistant Professor of Archaeology</p>
+        <h1>Halil Mert<br>Erdoğan</h1>
+        <p class="hero-line">Exploring the human past through archaeology.</p>
+        <div class="hero-actions"><a class="button primary" href="#research">Explore Research</a><a class="button" href="#publications">Selected Publications</a></div>
+        <p class="research-tags">Field Archaeology · Ancient Architecture · Ancient Religion · Cultural Heritage</p>
       </div>
+      <figure class="hero-image reveal"><img src="assets/hero-portrait.png" alt="Black and white portrait of Halil Mert Erdoğan"></figure>
     </section>
 
-    <section class="metrics">
-      <div class="container metric-grid">
-        <article><strong>16+</strong><span>Years in archaeology</span></article>
-        <article><strong>5</strong><span>Major field projects</span></article>
-        <article><strong>3</strong><span>International journal publications</span></article>
-        <article><strong>Deputy Director</strong><span>Olympos Excavations</span></article>
-      </div>
-    </section>
-
-    <section id="profile" class="section profile">
-      <div class="container split">
-        <div>
-          <p class="section-label">Profile</p>
-          <h2>Archaeology built through continuity</h2>
-        </div>
-        <div class="profile-copy">
-          <p class="intro">
-            Dr. Halil Mert Erdoğan is an archaeologist whose work brings together excavation,
-            architectural analysis, digital documentation, conservation practice and publication.
-          </p>
-          <p>
-            His research focuses on Lycia, particularly ancient fortifications, Roman religious
-            landscapes, architectural sculpture and the transformation of urban environments.
-          </p>
-          <p>
-            He has worked at Rhodiapolis, Xanthos, Olympos, Beydağları and Prokonnesos, and currently
-            serves as Deputy Director of the Olympos Excavations.
-          </p>
+    <section id="biography" class="bio section-shell">
+      <div class="section-label">Biography</div>
+      <div class="bio-grid">
+        <h2>Archaeology grounded in fieldwork, architecture and historical interpretation.</h2>
+        <div class="bio-copy">
+          <p>Halil Mert Erdoğan is an Assistant Professor of Archaeology and Deputy Director of the Olympos Excavations. His academic work engages with the archaeology of Lycia and Anatolia, with particular attention to ancient architecture, religious practices and cultural heritage.</p>
+          <p>His research is shaped by long-term field experience, architectural documentation, material analysis and publication. His work spans the Archaic, Classical, Hellenistic, Roman and Late Antique periods.</p>
         </div>
       </div>
+      <figure class="bio-portrait reveal"><img src="assets/formal-portrait.png" alt="Formal black and white portrait of Halil Mert Erdoğan"></figure>
     </section>
 
-    <section id="projects" class="project-story">
-      <article class="story story-dark">
-        <div class="story-image">
-          <img src="assets/olympos.jpg" alt="Archaeological view of Olympos">
-        </div>
-        <div class="story-copy">
-          <p class="story-index">01 · Olympos</p>
-          <h2>Fieldwork as a research ecosystem</h2>
-          <p>
-            Excavation management, architectural documentation, interdisciplinary coordination
-            and scientific publication developed within one of Lycia's most significant urban sites.
-          </p>
-          <dl>
-            <div><dt>Role</dt><dd>Deputy Director</dd></div>
-            <div><dt>Period</dt><dd>2022–Present</dd></div>
-            <div><dt>Focus</dt><dd>Architecture, sculpture and religious landscapes</dd></div>
-          </dl>
-        </div>
-      </article>
+    <section id="fieldwork" class="feature-panel dark">
+      <div class="feature-image"><img src="assets/fieldwork.jpg" alt="Archaeological fieldwork at Xanthos"></div>
+      <div class="feature-copy"><p class="eyebrow">Fieldwork</p><h2>Fieldwork at Xanthos</h2><p>Close observation, architectural recording and interpretation begin at the monument itself. Fieldwork remains central to the way archaeological questions are formed and tested.</p></div>
+    </section>
 
-      <article class="story story-light">
-        <div class="story-copy">
-          <p class="story-index">02 · Zeus Olympios</p>
-          <h2>336 fragments.<br>One reconstruction.</h2>
-          <p>
-            A large-scale sculptural reconstruction combining archaeological context,
-            architectural evidence, RTI and photogrammetry to identify the cult statue
-            of Zeus Olympios from Olympos.
-          </p>
-          <p class="journal">Oxford Journal of Archaeology · 2026 · AHCI · Q1</p>
-        </div>
-        <div class="story-image">
-          <img src="assets/zeus.jpg" alt="Digital reconstruction or fragments of the Zeus Olympios statue">
-        </div>
-      </article>
+    <section class="landscape-section">
+      <img src="assets/olympos-landscape.png" alt="Aerial landscape of Olympos">
+      <div class="landscape-caption"><span>Olympos</span><p>Landscape, settlement and the archaeology of place.</p></div>
+    </section>
 
-      <article class="story story-stone">
-        <div class="story-image">
-          <img src="assets/hephaistos.jpg" alt="Hephaistos statuette from Olympos">
-        </div>
-        <div class="story-copy">
-          <p class="story-index">03 · Hephaistos</p>
-          <h2>From fragmented sculpture to cult identity</h2>
-          <p>
-            The iconographic and archaeological reassessment of a seated male statuette
-            from Olympos, identified as Hephaistos through attributes, context and comparative evidence.
-          </p>
-          <p class="journal">OLBA · 2025</p>
-        </div>
+    <section id="research" class="research section-shell">
+      <div class="section-heading"><p class="eyebrow">Research</p><h2>Selected research themes and archaeological materials</h2></div>
+      <article class="research-card large reveal">
+        <div class="research-media black"><img src="assets/hephaistos.png" alt="Seated Hephaistos sculpture from Olympos"></div>
+        <div class="research-copy"><p class="kicker">Ancient Sculpture · Olympos</p><h3>Hephaistos and the religious landscape of Olympos</h3><p>A study of a seated male cult image identified through sculptural fragments, iconography and the wider religious setting of the city.</p></div>
       </article>
-
-      <article class="story story-crimson">
-        <div class="story-copy">
-          <p class="story-index">04 · Invictus</p>
-          <h2>Religion, landscape and celestial architecture</h2>
-          <p>
-            Ongoing research on a rock-cut sacred landscape at Olympos, examining the relationship
-            between architecture, solar symbolism, ritual practice and religious syncretism in Roman Lycia.
-          </p>
-          <p class="journal">Research in progress</p>
-        </div>
-        <div class="story-image">
-          <img src="assets/invictus.jpg" alt="Rock-cut sacred area at Olympos">
-        </div>
+      <article class="research-card reverse reveal">
+        <div class="research-media light"><img src="assets/zeus-head.png" alt="Multiple views of a reconstructed Zeus head"></div>
+        <div class="research-copy"><p class="kicker">Cult Image · Architectural Context</p><h3>Reconstructing Zeus Olympios</h3><p>Fragment-based reconstruction brings together sculpture, temple architecture and archaeological context to reconsider the monumental cult image of Olympos.</p></div>
+      </article>
+      <article class="research-card reveal">
+        <div class="research-media"><img src="assets/masonry.png" alt="Ancient masonry wall"></div>
+        <div class="research-copy"><p class="kicker">Ancient Architecture</p><h3>Reading masonry as archaeological evidence</h3><p>Construction techniques, wall fabrics and architectural relationships preserve evidence for chronology, planning and changing use.</p></div>
       </article>
     </section>
 
-    <section id="publications" class="section publications">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="section-label">Scholarship</p>
-            <h2>Selected publications</h2>
-          </div>
-          <a href="assets/Halil-Mert-Erdogan-CV.pdf">Full list in CV →</a>
-        </div>
-
-        <div class="pub-list">
-          <article>
-            <span>2026</span>
-            <div>
-              <p class="meta">Oxford Journal of Archaeology · AHCI · Q1</p>
-              <h3>The Cult Statue of Zeus Olympios from Olympos</h3>
-            </div>
-          </article>
-          <article>
-            <span>2025</span>
-            <div>
-              <p class="meta">OLBA</p>
-              <h3>A Seated Hephaistos Statuette from Olympos</h3>
-            </div>
-          </article>
-          <article>
-            <span>2023</span>
-            <div>
-              <p class="meta">Adalya · AHCI</p>
-              <h3>The Dynastic Monument in the West Agora of Xanthos</h3>
-            </div>
-          </article>
-          <article>
-            <span>2022</span>
-            <div>
-              <p class="meta">Peer-reviewed journal article</p>
-              <h3>Wall Masonry Styles in Lycian Fortifications</h3>
-            </div>
-          </article>
-        </div>
-      </div>
+    <section class="split-gallery">
+      <figure><img src="assets/olympos-aerial.png" alt="Aerial view of Olympos archaeological landscape"><figcaption>Olympos · Archaeological landscape</figcaption></figure>
+      <figure><img src="assets/xanthos-aerial.png" alt="Aerial view of Xanthos"><figcaption>Xanthos · Urban topography and monuments</figcaption></figure>
     </section>
 
-    <section id="fieldwork" class="section fieldwork">
-      <div class="container">
-        <p class="section-label">Fieldwork</p>
-        <h2>Projects across southwestern Anatolia</h2>
-        <div class="field-grid">
-          <article>
-            <p>2022–Present</p>
-            <h3>Olympos</h3>
-            <span>Deputy Director</span>
-          </article>
-          <article>
-            <p>2012–2019</p>
-            <h3>Xanthos</h3>
-            <span>Fieldwork & Scientific Committee</span>
-          </article>
-          <article>
-            <p>2009–2012</p>
-            <h3>Rhodiapolis</h3>
-            <span>Archaeologist</span>
-          </article>
-          <article>
-            <p>Regional Survey</p>
-            <h3>Beydağları</h3>
-            <span>Researcher</span>
-          </article>
-          <article>
-            <p>Ongoing</p>
-            <h3>Prokonnesos</h3>
-            <span>Survey Researcher</span>
-          </article>
-        </div>
+    <section id="publications" class="publications section-shell">
+      <div class="section-heading"><p class="eyebrow">Publications</p><h2>Selected work</h2></div>
+      <div class="publication-list">
+        <article><span class="pub-year">2026</span><div><h3>Reconstructing the Cult Image of Zeus Olympios at Olympos</h3><p>Oxford Journal of Archaeology</p></div></article>
+        <article><span class="pub-year">2025</span><div><h3>Architectural and Archaeological Research in Lycia</h3><p>OLBA</p></div></article>
+        <article><span class="pub-year">2023</span><div><h3>New Evaluations on the Archaeology of Olympos</h3><p>Adalya</p></div></article>
       </div>
+      <div class="profile-links"><a href="https://akev.academia.edu/HMertErdo%C4%9Fan" target="_blank" rel="noopener">More publications on Academia ↗</a><a href="https://www.researchgate.net/profile/Halil-Erdogan-3?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate profile ↗</a></div>
     </section>
 
-    <section class="section support">
-      <div class="container split">
-        <div>
-          <p class="section-label">Research Support</p>
-          <h2>Koç University AKMED</h2>
-        </div>
-        <div>
-          <p class="intro">
-            Sustained academic support from undergraduate education through independent research.
-          </p>
-          <ul>
-            <li>Undergraduate Research Scholarship</li>
-            <li>Master's Research Scholarship</li>
-            <li>Doctoral Research Scholarship</li>
-            <li>Principal Investigator, AKMED Project 2021/T.1087</li>
-            <li>Contribution to the development of the AKMED Research Library</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section leadership">
-      <div class="container">
-        <p class="section-label">Academic Leadership</p>
-        <h2>Research, teaching and institutional responsibility</h2>
-        <div class="lead-grid">
-          <article><h3>Department Chair</h3><p>Architecture and Urban Planning · 2021–Present</p></article>
-          <article><h3>Programme Chair</h3><p>Architectural Restoration · 2018–Present</p></article>
-          <article><h3>Deputy Director</h3><p>Vocational School · 2018–2019</p></article>
-          <article><h3>Boards & Committees</h3><p>Academic governance, quality assurance and institutional planning</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container contact-grid">
-        <div>
-          <p class="section-label">Contact</p>
-          <h2>Research, collaboration and academic correspondence</h2>
-        </div>
-        <div class="contact-links">
-          <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
-          <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
-          <a href="https://orcid.org/" target="_blank" rel="noreferrer">ORCID</a>
-          <a href="https://www.researchgate.net/" target="_blank" rel="noreferrer">ResearchGate</a>
-          <a href="assets/Halil-Mert-Erdogan-CV.pdf">Download CV</a>
-        </div>
+    <section id="contact" class="contact">
+      <div class="section-shell contact-grid">
+        <div><p class="eyebrow">Contact</p><h2>Academic enquiries, collaboration and research correspondence.</h2></div>
+        <div class="contact-links"><a href="mailto:halil.mert.erdogan@gmail.com">halil.mert.erdogan@gmail.com</a><a href="mailto:halil.erdogan@belek.edu.tr">halil.erdogan@belek.edu.tr</a><a href="https://akev.academia.edu/HMertErdo%C4%9Fan" target="_blank" rel="noopener">Academia</a><a href="https://www.researchgate.net/profile/Halil-Erdogan-3?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate</a></div>
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="container footer">
-      <p>© <span id="year"></span> Halil Mert Erdoğan</p>
-      <p>Archaeology · Architecture · Cultural Heritage</p>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><span>© <span id="year"></span> Halil Mert Erdoğan</span><span>Archaeology · Research · Fieldwork</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
