@@ -1,15 +1,15 @@
-const menuButton = document.querySelector(".menu-button");
-const nav = document.querySelector(".main-nav");
+const button = document.querySelector(".menu-button");
+const menu = document.querySelector("nav");
 
-menuButton.addEventListener("click", () => {
-  const open = nav.classList.toggle("open");
-  menuButton.setAttribute("aria-expanded", String(open));
+button.addEventListener("click", () => {
+  const isOpen = menu.classList.toggle("open");
+  button.setAttribute("aria-expanded", String(isOpen));
 });
 
-nav.querySelectorAll("a").forEach(link => {
+menu.querySelectorAll("a").forEach(link => {
   link.addEventListener("click", () => {
-    nav.classList.remove("open");
-    menuButton.setAttribute("aria-expanded", "false");
+    menu.classList.remove("open");
+    button.setAttribute("aria-expanded", "false");
   });
 });
 
