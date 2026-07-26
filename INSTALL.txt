@@ -1,0 +1,32 @@
+SUNDAY READING #001 — SENET
+INSTALLATION
+
+1. Extract this ZIP.
+2. Copy the contents into the root folder of:
+   HalilMertErdogan.github.io
+
+3. When Windows asks about files with the same names:
+   choose "Replace the files in the destination".
+
+This package contains:
+- updated index.html
+- updated style.css
+- unchanged script.js
+- readings/index.html
+- readings/sr001-senet.html
+- readings/readings.css
+- assets/readings/senet-en.png
+- assets/readings/senet-tr.png
+
+4. In VS Code:
+   Source Control → enter a commit message → Commit → Sync Changes
+
+Suggested commit message:
+Add Sunday Readings and Senet article
+
+5. After deployment, check:
+- https://halilmerterdogan.com/
+- https://halilmerterdogan.com/readings/
+- https://halilmerterdogan.com/readings/sr001-senet.html
+
+If an old version appears, press Ctrl + F5.
