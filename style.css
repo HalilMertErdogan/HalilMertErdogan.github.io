@@ -13,3 +13,17 @@
 @media(max-width:850px){
   .reading-feature{grid-template-columns:1fr}
 }
+.hero-social{
+    margin:18px 0 20px;
+}
+
+.hero-social a{
+    color:#c6a15b;
+    font-size:1.6rem;
+    text-decoration:none;
+    transition:.3s ease;
+}
+
+.hero-social a:hover{
+    color:#ffffff;
+}
