@@ -14,16 +14,35 @@
   .reading-feature{grid-template-columns:1fr}
 }
 .hero-social{
-    margin:18px 0 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:22px;
+    margin:28px 0 38px;
 }
 
 .hero-social a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+
     color:#c6a15b;
-    font-size:1.6rem;
     text-decoration:none;
-    transition:.3s ease;
+
+    transition:.25s ease;
+}
+
+.hero-social i{
+    font-size:1.7rem;
+}
+
+.hero-social span{
+    font-size:.78rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
 }
 
 .hero-social a:hover{
-    color:#ffffff;
+    color:#111;
+    transform:translateY(-3px);
 }
