@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Perspectives 001: Can't You Just Stay in the Office? An essay by Halil Mert Erdoğan on archaeological fieldwork, survey, and excavation."
+  >
+
+  <title>Can't You Just Stay in the Office? | Perspectives 001</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Caslon+Display&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../readings/readings.css">
+
+  <style>
+    /*
+      This page deliberately inherits the website's existing typography.
+      Only the article width, readable text colour, title size, and language tabs
+      are defined here.
+    */
+
+    .perspective-page {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 64px 0 100px;
+    }
+
+    .perspective-kicker {
+      margin: 0 0 26px;
+      color: #b48732;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .language-tabs {
+      display: flex;
+      gap: 12px;
+      margin: 0 0 52px;
+      padding: 0 0 22px;
+      border-bottom: 1px solid rgba(180, 135, 45, 0.28);
+    }
+
+    .language-tab {
+      appearance:none;
+      padding:11px 24px;
+      border:1px solid rgba(180,135,45,.45);
+      background:transparent;
+      color:#6b6257;
+      font-family:'Inter',sans-serif;
+      font-size:.82rem;
+      font-weight:600;
+      letter-spacing:.10em;
+      text-transform:uppercase;
+      cursor:pointer;
+    }
+
+    .language-tab.active {
+      border-color: #d1aa55;
+      background: #d1aa55;
+      color: #151515;
+    }
+
+    .language-panel {
+      display: none;
+    }
+
+    .language-panel.active {
+      display: block;
+    }
+
+    .perspective-title {
+      font-family: 'Libre Caslon Display', serif;
+      max-width: 840px;
+      margin: 0 0 22px;
+      color: #1b1b1b;
+      font-size: clamp(3.2rem, 5vw, 4.8rem);
+      font-weight: 400;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+    }
+
+    .perspective-meta {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px 24px;
+      margin:0 0 46px;
+      font-family:'Inter',sans-serif;
+      color:#6b6257;
+      font-size:0.95rem;
+      font-weight:500;
+      letter-spacing:.03em;
+    }
+
+    .perspective-text {
+      max-width:800px;
+      font-family:'Inter',sans-serif;
+      color:#2f2f2f;
+    }
+
+    .perspective-text p {
+      margin:0 0 1.65em;
+      color:#2f2f2f;
+      font-family:'Inter',sans-serif;
+      font-size:1.12rem;
+      line-height:1.95;
+      font-weight:400;
+    }
+
+    .perspective-text ul {
+      margin: 0 0 1.8em;
+      padding-left: 1.35rem;
+    }
+
+    .perspective-text li {
+      margin:0 0 .8em;
+      color:#2f2f2f;
+      font-family:'Inter',sans-serif;
+      font-size:1.08rem;
+      line-height:1.85;
+    }
+
+    .perspective-divider {
+      width: 72px;
+      margin: 44px 0;
+      border: 0;
+      border-top: 1px solid #b48732;
+    }
+
+    .perspective-signature {
+      margin-top: 42px;
+      color: #b48732 !important;
+      font-weight: 600 !important;
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 700px) {
+      .perspective-page {
+        width: min(100% - 28px, 920px);
+        padding: 42px 0 72px;
+      }
+
+      .language-tabs {
+        margin-bottom: 38px;
+      }
+
+      .language-tab {
+      appearance:none;
+      padding:11px 24px;
+      border:1px solid rgba(180,135,45,.45);
+      background:transparent;
+      color:#6b6257;
+      font-family:'Inter',sans-serif;
+      font-size:.82rem;
+      font-weight:600;
+      letter-spacing:.10em;
+      text-transform:uppercase;
+      cursor:pointer;
+    }
+
+      .perspective-title {
+      font-family: 'Libre Caslon Display', serif;
+      max-width: 840px;
+      margin: 0 0 22px;
+      color: #1b1b1b;
+      font-size: clamp(3.2rem, 5vw, 4.8rem);
+      font-weight: 400;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+    }
+
+      .perspective-text p,
+      .perspective-text li {
+      margin:0 0 .8em;
+      color:#2f2f2f;
+      font-family:'Inter',sans-serif;
+      font-size:1.08rem;
+      line-height:1.85;
+    }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="../index.html#biography">Biography</a>
+      <a href="../index.html#fieldwork">Fieldwork</a>
+      <a href="../index.html#research">Research</a>
+      <a href="../index.html#publications">Publications</a>
+      <a href="../readings/">Sunday Reading</a>
+      <a href="./">Perspectives</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="perspective-page">
+
+    <p class="perspective-kicker">Perspectives · P-001</p>
+
+    <div class="language-tabs" role="tablist" aria-label="Article language">
+      <button
+        class="language-tab active"
+        id="english-tab"
+        type="button"
+        role="tab"
+        aria-selected="true"
+        aria-controls="english-panel"
+        onclick="showLanguage('english')"
+      >
+        English
+      </button>
+
+      <button
+        class="language-tab"
+        id="turkish-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="turkish-panel"
+        onclick="showLanguage('turkish')"
+      >
+        Türkçe
+      </button>
+    </div>
+
+    <article
+      id="english-panel"
+      class="language-panel active"
+      role="tabpanel"
+      aria-labelledby="english-tab"
+      lang="en"
+    >
+      <h1 class="perspective-title">Can't You Just Stay in the Office?</h1>
+
+      <div class="perspective-meta">
+        <span>29 July 2026</span>
+        <span>Halil Mert Erdoğan</span>
+      </div>
+
+      <div class="perspective-text">
+        <p>
+          It is worth mentioning once again that the main reason I created this website and my social media accounts was my realization that there is a significant lack of understanding about how archaeological knowledge is actually produced. The clearest indication of this has been the fact that I am repeatedly asked—even in academic settings—questions as basic as, “Why do you have to take part in excavations?” or “Why do you need to conduct a survey?”
+        </p>
+
+        <p>
+          As someone who has devoted nearly twenty years to Turkish archaeology, I believe I have a responsibility to explain these issues as clearly as I can.
+        </p>
+
+        <p>
+          Perhaps we, as archaeologists, have not always done the best job of explaining these issues to a wider audience. If that is the case, then there is little point in blaming others; it simply gives us one more reason to explain them more clearly.
+        </p>
+
+        <hr class="perspective-divider">
+
+        <p>
+          Archaeology is, by its very nature, a discipline built on fieldwork. For this reason, an archaeologist's participation in surveys and excavations is not simply a matter of personal choice; it is a fundamental requirement for the continuity of scientific research. At the same time, such fieldwork is often subject to administrative and institutional approval processes. When these processes are delayed or interrupted for any reason, the consequences extend far beyond the field itself, directly affecting the quality and continuity of scientific research.
+        </p>
+
+        <p>
+          Why is this the case? Because archaeology seeks to understand and interpret the past through the material remains left behind by past societies. The primary evidence archaeologists rely on is therefore not produced at a desk, but gathered in the field. To understand how this evidence is collected, we must first take a brief look at the two principal forms of archaeological fieldwork.
+        </p>
+
+        <p>
+          Archaeological fieldwork can broadly be divided into two main categories: survey and excavation.
+        </p>
+
+        <p>
+          An archaeological survey (I previously shared a post on this topic on my Instagram account—feel free to have a look if you would like a more detailed explanation) is a research method that examines and documents archaeological remains visible on the ground without the use of excavation techniques.
+        </p>
+
+        <p>
+          In other words, it is not possible to simply say, "I'd like to join you on your survey," and take part in these projects. All researchers must be included on the official research team submitted to the Turkish Ministry of Culture and Tourism. In addition, Ministry Representatives appointed by the Ministry review these lists and oversee the fieldwork throughout the project.
+        </p>
+
+        <p>
+          In short, the final authority rests with the Ministry. It is the Ministry that approves the research permit, authorizes the research team, and oversees the work carried out in the field.
+        </p>
+
+        <p>A few additional points are worth mentioning:</p>
+
+        <ul>
+          <li>Archaeological surveys typically last between 15 and 30 days.</li>
+          <li>No excavation takes place during a survey.</li>
+          <li>Digital documentation methods—including photogrammetry, LiDAR, GNSS/GPS, Total Station, and GIS—play a central role in modern survey projects.</li>
+          <li>Research permits are granted for three years, with the possibility of applying for a one-year extension.</li>
+        </ul>
+
+        <p>
+          On a personal note, I always encourage young archaeologists to participate in as many survey projects as possible. Developing the ability to interpret a structure, a settlement, or an entire landscape using nothing more than the evidence visible on the surface is, in my opinion, one of the most valuable skills an archaeologist can acquire.
+        </p>
+
+        <p>
+          The other principal form of archaeological fieldwork is, of course, excavation. Excavation projects may take different forms, including museum-led short-term excavations, long-term research excavations, and underwater excavations. A detailed discussion of each, however, deserves a separate article.
+        </p>
+
+        <p>For now, a brief overview will suffice.</p>
+
+        <p>
+          Excavations in Türkiye are carried out under an excavation permit issued by the Turkish Ministry of Culture and Tourism. This permit must be renewed annually.
+        </p>
+
+        <p>
+          All researchers who will take part in the excavation are officially reported to the Ministry, and any changes to the excavation team require the Ministry's approval.
+        </p>
+
+        <p>
+          Throughout the excavation season, the work is carried out under the supervision of Ministry Representatives appointed by the Ministry.
+        </p>
+
+        <p>
+          Scientific excavations are generally conducted during the summer months. This is largely due to more favorable weather conditions and, of course, the teaching and administrative responsibilities of university-based archaeologists. In recent years, however, many projects have adopted a year-round, twelve-month excavation model.
+        </p>
+
+        <p>
+          Excavation is an inherently destructive method of archaeological investigation. Once a layer has been excavated, it can never be observed again in its original context. For this reason, every stratigraphic layer and every archaeological find must be recorded and documented in meticulous detail throughout the excavation process.
+        </p>
+
+        <p>
+          Digital recording techniques—including photogrammetry, LiDAR, GNSS/GPS, Total Station, laser scanning, and GIS—have become an integral part of modern archaeological excavations.
+        </p>
+
+        <p>
+          Excavations are carried out using a variety of field methods, such as the Wheeler Box-Grid Method and the Barker Open-Area Method. (I will discuss these approaches in more detail in a future article.)
+        </p>
+
+        <p>
+          All archaeological finds recovered during excavation are systematically recorded, documented, conserved, and ultimately transferred to the relevant museum.
+        </p>
+
+        <hr class="perspective-divider">
+
+        <p>
+          The processes outlined above are, in fact, only the means by which archaeological evidence is brought to light. From an outsider's perspective, they may appear to constitute the essence of archaeological work. In reality, however, this is where the real work begins. Transforming archaeological evidence into scientific knowledge requires careful analysis, interpretation, and publication.
+        </p>
+
+        <p>
+          For this reason, asking an archaeologist, "Why do you need to carry out fieldwork?" is much like asking a molecular biologist who studies DNA, "Why do you need a laboratory?" Just as a molecular biologist cannot generate the data needed for research without access to a laboratory, an archaeologist cannot obtain the primary evidence needed to understand the past without fieldwork. Without that evidence, one of the fundamental pillars of archaeological research is lost.
+        </p>
+
+        <p>
+          A final note: Throughout this article, I have naturally drawn my examples from my own profession as an archaeologist. However, art historians, ancient historians, epigraphists, numismatists, and anthropologists often face similar challenges. Since the opportunity has arisen, I would also like to acknowledge and extend my support to all of them.
+        </p>
+
+        <p class="perspective-signature">HME.</p>
+      </div>
+    </article>
+
+    <article
+      id="turkish-panel"
+      class="language-panel"
+      role="tabpanel"
+      aria-labelledby="turkish-tab"
+      lang="tr"
+    >
+      <h1 class="perspective-title">“Hocam, Kazıya Gitmeseniz Olmaz mı?”</h1>
+
+      <div class="perspective-meta">
+        <span>29 Temmuz 2026</span>
+        <span>Halil Mert Erdoğan</span>
+      </div>
+
+      <div class="perspective-text">
+        <p>
+          Tekrar hatırlatmakta fayda var; bu siteyi ve sosyal medya hesaplarımı açmamdaki temel motivasyon, arkeolojik bilginin nasıl üretildiğine ilişkin ciddi bir bilgi eksikliği olduğunu fark etmemdi. Bunun en somut göstergesi ise, "Neden kazıya gitmek zorundasınız?" ya da "Neden yüzey araştırmasına katılmak zorundasın?" gibi en temel soruların bile akademik ortamlarda dahi sürekli olarak karşıma çıkması oldu.
+        </p>
+
+        <p>
+          Bunları düzgün bir şekilde açıklamak, yaklaşık yirmi yılını Türk arkeolojisine adamış biri olarak boynumun borcudur.
+        </p>
+
+        <p>
+          Böyle bir eksiklik varsa, bunun arkeologların akademik dünyada kendi içine kapanık yapılarından kaynaklanıyor olabileceği ihtimalini de heybemizde tutalım… Önce iğneyi kendimize batıralım; belki o zaman çuvaldızı kullanmaya gerek kalmadan meramımızı anlatabiliriz.
+        </p>
+
+        <hr class="perspective-divider">
+
+        <p>
+          Arkeoloji, doğası gereği arazi çalışmasına dayanan bir bilim dalıdır. Bu nedenle bir arkeoloğun yüzey araştırmalarına ve kazılara katılabilmesi yalnızca kişisel bir tercih değil, bilimsel üretimin sürdürülebilmesi açısından da temel bir gerekliliktir. Ne var ki bu süreçler çoğu zaman idari ve kurumsal izin mekanizmalarına bağlıdır. Bu mekanizmaların çeşitli nedenlerle aksaması ya da kesintiye uğraması, yalnızca arazi çalışmalarını değil, uzun vadede bilimsel araştırmaların niteliğini ve sürekliliğini de doğrudan etkileyebilir.
+        </p>
+
+        <p>
+          Peki neden? Çünkü arkeoloji, geçmişte yaşamış insanların geride bıraktığı maddi kültür kalıntılarından hareketle geçmişi anlamaya ve yorumlamaya çalışan bir bilim dalıdır. Bu nedenle arkeoloğun ihtiyaç duyduğu temel veriler masa başında değil, arazide elde edilir. Bu verilerin nasıl toplandığını anlayabilmek için ise önce arkeolojinin temel arazi çalışmalarına kısaca değinmek gerekir.
+        </p>
+
+        <p>
+          Arazi çalışmaları temelde ikiye ayrılır: Yüzey Araştırması ve Kazı Çalışması.
+        </p>
+
+        <p>
+          Yüzey araştırması (daha evvel Instagram hesabımda konuyla ilgili bir gönderi paylaşmıştım; detaylı bilgi için oraya da göz atabilirsiniz), kazı teknikleri kullanılmaksızın yüzeyde gözlemlenebilen kalıntıların incelendiği ve belgelendiği bir araştırma yöntemidir.
+        </p>
+
+        <p>
+          "Merhaba, ben de sizinle dağ tepe yürüyeceğim." diyenlerin elini kolunu sallayarak bu araştırmalara katılması mümkün değildir.
+        </p>
+
+        <p>
+          T.C. Kültür ve Turizm Bakanlığı'na bildirilen araştırmacı listelerinde isminizin yer alması gerekir. Ayrıca, yine Bakanlık tarafından görevlendirilen Bakanlık Temsilcileri bu listeleri kontrol eder ve araştırmaları denetler.
+        </p>
+
+        <p>
+          Yani tabir-i caiz ise nihai söz sahibi Bakanlıktır. Çalışma iznini, araştırma ruhsatını ve araştırmacı listesini onaylayan da yürütülen çalışmaları denetleyen de Bakanlıktır.
+        </p>
+
+        <p>Bunlara ek olarak bilinmesi gerekenler:</p>
+
+        <ul>
+          <li>Yüzey araştırmaları genellikle 15–30 gün arasında gerçekleşir.</li>
+          <li>Kazı yapılmaz.</li>
+          <li>Özellikle belgeleme tekniklerinde Fotogrametri, LiDAR, GNSS/GPS, Total Station ve CBS (GIS) gibi dijital yöntemler büyük önem taşır.</li>
+          <li>Araştırma izinleri ise 3 yıl ile sınırlıdır (1 yıl ek süre talep edilebilir).</li>
+        </ul>
+
+        <p>
+          Kişisel olarak mesleğe yeni başlayan arkeologlara yüzey araştırmalarında mümkün olduğunca fazla görev almalarını tavsiye ediyorum. Kazı yapmadan, yalnızca yüzeyde gözlemlenebilen verilerden hareketle bir yapıyı, bir yerleşimi ya da bir peyzajı okuyabilme becerisi, arkeolojik düşünme pratiğinin en önemli kazanımlarından biridir.
+        </p>
+
+        <p>
+          Bir diğer temel arazi çalışması ise elbette kazı çalışmalarıdır. Bu çalışmalar kendi içinde farklı türlere ayrılır: kurtarma kazıları, bilimsel (sürekli) kazılar, sualtı kazıları vb.
+        </p>
+
+        <p>
+          Bunların her birini ayrıntılı olarak ele almak ise başka bir yazının konusu olacaktır.
+        </p>
+
+        <p>Ama kısaca şöyle bir özet yapılabilir:</p>
+
+        <p>
+          Kazılar, T.C. Kültür ve Turizm Bakanlığı tarafından verilen kazı izni (ruhsatı) kapsamında yürütülür. Her sene ruhsat yenilenir.
+        </p>
+
+        <p>
+          Kazı ekibinde yer alacak araştırmacılar Bakanlığa bildirilir; ekipte yapılacak değişiklikler de Bakanlığın bilgisi ve onayı dâhilinde gerçekleştirilir.
+        </p>
+
+        <p>
+          Kazılar, Bakanlık tarafından görevlendirilen Bakanlık Temsilcilerinin gözetim ve denetiminde yürütülür.
+        </p>
+
+        <p>
+          Bilimsel kazılar genellikle yaz aylarında gerçekleştirilir. Bunun temel sebepleri mevsimsel koşulların daha elverişli olması ve şüphesiz akademisyenlerin üniversitelerdeki görevleridir. Ancak son yıllarda birçok bilimsel kazı, yılın tamamına yayılan on iki aylık çalışma modeline geçmiştir.
+        </p>
+
+        <p>
+          Kazı, geri dönüşü olmayan (destructive) bir araştırma yöntemidir. Bu nedenle kazı sırasında kaldırılan her tabaka ve her buluntu, gelecekte tekrar gözlemlenemeyeceği için ayrıntılı olarak belgelenmek zorundadır.
+        </p>
+
+        <p>
+          Fotogrametri, LiDAR, GNSS/GPS, Total Station, lazer tarayıcılar ve CBS (GIS) gibi dijital belgeleme yöntemleri günümüzde kazı çalışmalarının ayrılmaz bir parçası hâline gelmiştir.
+        </p>
+
+        <p>
+          Kazılarda Wheeler Kutu Yöntemi, Barker Sistemi gibi farklı kazı teknikleri uygulanır. (Bunları da ayrıntılı olarak başka bir yazıda ele alacağım.)
+        </p>
+
+        <p>
+          Kazılarda elde edilen tüm buluntular kayıt altına alınır, belgelenir, korunur ve ilgili müzeye teslim edilir.
+        </p>
+
+        <hr class="perspective-divider">
+
+        <p>
+          Kısaca açıklamaya çalıştığım bu süreçler, aslında yalnızca araştırılacak verinin ortaya çıkarılmasını sağlayan aşamalardır. Dışarıdan bakıldığında asıl işin bunlar olduğu düşünülebilir; oysa esas süreç bundan sonra başlar. Elde edilen verilerin bilimsel bir araştırmaya dönüşebilmesi için bu kez masa başına geçilir.
+        </p>
+
+        <p>
+          Dolayısıyla bir arkeoloğa "Neden araziye çıkıyorsun?" diye sormak, DNA üzerine çalışan bir moleküler biyoloğa "Neden laboratuvara giriyorsun?" diye sormak kadar anlamsızdır. Nasıl ki bir moleküler biyolog laboratuvara girmeden araştırması için gerekli verileri üretemez ve bilimsel bir çalışma ortaya koyamazsa, bir arkeolog da araziye çıkmadan geçmişi anlamlandıracak temel verilere ulaşamaz. Dolayısıyla bilimsel araştırmasının en önemli dayanaklarından birini kaybetmiş olur.
+        </p>
+
+        <p>
+          Küçük bir not: Bu yazıda örnekleri bir arkeolog olarak kendi mesleğim üzerinden verdim. Ancak benzer sıkıntıları sanat tarihçileri, eskiçağ tarihçileri, epigraflar, nümizmatlar ve antropologlar da yaşıyor. Hazır yeri gelmişken, onları da kucaklıyorum.
+        </p>
+
+        <p class="perspective-signature">HME.</p>
+      </div>
+    </article>
+
+  </main>
+
+  <script>
+    function showLanguage(language) {
+      const showEnglish = language === "english";
+
+      document
+        .getElementById("english-panel")
+        .classList.toggle("active", showEnglish);
+
+      document
+        .getElementById("turkish-panel")
+        .classList.toggle("active", !showEnglish);
+
+      document
+        .getElementById("english-tab")
+        .classList.toggle("active", showEnglish);
+
+      document
+        .getElementById("turkish-tab")
+        .classList.toggle("active", !showEnglish);
+
+      document
+        .getElementById("english-tab")
+        .setAttribute("aria-selected", String(showEnglish));
+
+      document
+        .getElementById("turkish-tab")
+        .setAttribute("aria-selected", String(!showEnglish));
+
+      document.documentElement.lang = showEnglish ? "en" : "tr";
+    }
+  </script>
+
+</body>
+</html>
