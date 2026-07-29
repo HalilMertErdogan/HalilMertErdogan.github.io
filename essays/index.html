@@ -15,6 +15,64 @@
   >
 
   <link rel="stylesheet" href="../style.css">
+  <style>
+  .perspectives-list {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 10% 120px;
+  }
+
+  .perspective-card {
+    display: block;
+    max-width: 760px;
+    padding: 42px 0;
+    border-top: 1px solid rgba(194, 145, 55, 0.45);
+    color: #171717;
+    text-decoration: none;
+  }
+
+  .perspective-number {
+    display: block;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    color: #b18432;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  .perspective-card h2 {
+    margin: 0 0 18px;
+    font-family: "Libre Caslon Display", serif;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-weight: 400;
+    line-height: 1.05;
+  }
+
+  .perspective-card p {
+    max-width: 650px;
+    margin: 0 0 22px;
+    font-family: "Inter", sans-serif;
+    color: #4d4943;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .perspective-link {
+    font-family: "Inter", sans-serif;
+    color: #b18432;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .perspective-card:hover h2,
+  .perspective-card:hover .perspective-link {
+    color: #b18432;
+  }
+</style>
 </head>
 
 <body>
@@ -44,7 +102,29 @@
         understanding of archaeology.
       </p>
     </section>
+<section class="perspectives-list">
 
+  <a
+    class="perspective-card"
+    href="./p001-cant-you-just-stay-in-the-office.html"
+  >
+    <span class="perspective-number">P-001</span>
+
+    <h2>
+      Can't You Just Stay in the Office?
+    </h2>
+
+    <p>
+      Why archaeological knowledge depends on fieldwork,
+      survey and excavation.
+    </p>
+
+    <span class="perspective-link">
+      Read essay →
+    </span>
+  </a>
+
+</section>
   </main>
 
 </body>
