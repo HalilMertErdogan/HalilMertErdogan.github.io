@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="A personal reflection on the Sanctuary of Asclepius and Hygieia at Rhodiapolis, inspired by the newly discovered Asclepius statues from Aspendos.">
+
+  <title>When I Saw the Asclepius of Aspendos... | Halil Mert Erdoğan</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Caslon+Display&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../readings/readings.css">
+
+  <style>
+    /*
+      This page deliberately inherits the website's existing typography.
+      Only the article width, readable text colour, title size, and language tabs
+      are defined here.
+    */
+
+    .perspective-page {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 64px 0 100px;
+    }
+
+    .perspective-kicker {
+      margin: 0 0 26px;
+      color: #b48732;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .language-tabs {
+      display: flex;
+      gap: 12px;
+      margin: 0 0 52px;
+      padding: 0 0 22px;
+      border-bottom: 1px solid rgba(180, 135, 45, 0.28);
+    }
+
+    .language-tab {
+      appearance:none;
+      padding:11px 24px;
+      border:1px solid rgba(180,135,45,.45);
+      background:transparent;
+      color:#6b6257;
+      font-family:'Inter',sans-serif;
+      font-size:.82rem;
+      font-weight:600;
+      letter-spacing:.10em;
+      text-transform:uppercase;
+      cursor:pointer;
+    }
+
+    .language-tab.active {
+      border-color: #d1aa55;
+      background: #d1aa55;
+      color: #151515;
+    }
+
+    .language-panel {
+      display: none;
+    }
+
+    .language-panel.active {
+      display: block;
+    }
+
+    .perspective-title {
+      font-family: 'Libre Caslon Display', serif;
+      max-width: 840px;
+      margin: 0 0 22px;
+      color: #1b1b1b;
+      font-size: clamp(3.2rem, 5vw, 4.8rem);
+      font-weight: 400;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+    }
+
+    .perspective-meta {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px 24px;
+      margin:0 0 46px;
+      font-family:'Inter',sans-serif;
+      color:#6b6257;
+      font-size:0.95rem;
+      font-weight:500;
+      letter-spacing:.03em;
+    }
+
+    .perspective-text {
+      max-width:800px;
+      font-family:'Inter',sans-serif;
+      color:#2f2f2f;
+    }
+
+    .perspective-text p {
+      margin:0 0 1.65em;
+      color:#2f2f2f;
+      font-family:'Inter',sans-serif;
+      font-size:1.12rem;
+      line-height:1.95;
+      font-weight:400;
+    }
+
+    .perspective-text ul {
+      margin: 0 0 1.8em;
+      padding-left: 1.35rem;
+    }
+
+    .perspective-text li {
+      margin:0 0 .8em;
+      color:#2f2f2f;
+      font-family:'Inter',sans-serif;
+      font-size:1.08rem;
+      line-height:1.85;
+    }
+
+    .perspective-divider {
+      width: 72px;
+      margin: 44px 0;
+      border: 0;
+      border-top: 1px solid #b48732;
+    }
+
+    .perspective-signature {
+      margin-top: 42px;
+      color: #b48732 !important;
+      font-weight: 600 !important;
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 700px) {
+      .perspective-page {
+        width: min(100% - 28px, 920px);
+        padding: 42px 0 72px;
+      }
+
+      .language-tabs {
+        margin-bottom: 38px;
+      }
+
+      .language-tab {
+      appearance:none;
+      padding:11px 24px;
+      border:1px solid rgba(180,135,45,.45);
+      background:transparent;
+      color:#6b6257;
+      font-family:'Inter',sans-serif;
+      font-size:.82rem;
+      font-weight:600;
+      letter-spacing:.10em;
+      text-transform:uppercase;
+      cursor:pointer;
+    }
+
+      .perspective-title {
+      font-family: 'Libre Caslon Display', serif;
+      max-width: 840px;
+      margin: 0 0 22px;
+      color: #1b1b1b;
+      font-size: clamp(3.2rem, 5vw, 4.8rem);
+      font-weight: 400;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+    }
+
+      .perspective-text p,
+      .perspective-text li {
+      margin:0 0 .8em;
+      color:#2f2f2f;
+      font-family:'Inter',sans-serif;
+      font-size:1.08rem;
+      line-height:1.85;
+    }
+    }
+    .perspective-figure {
+  margin: 3rem 0;
+}
+
+.perspective-figure img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+.perspective-figure figcaption {
+  margin-top: .9rem;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: .92rem;
+  color: #7b7369;
+  line-height: 1.6;
+  font-style: italic;
+}
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="../index.html#biography">Biography</a>
+      <a href="../index.html#fieldwork">Fieldwork</a>
+      <a href="../index.html#research">Research</a>
+      <a href="../index.html#publications">Publications</a>
+      <a href="../readings/">Sunday Reading</a>
+      <a href="./">Perspectives</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="perspective-page">
+
+    <p class="perspective-kicker">Perspectives · P-002</p>
+
+    <div class="language-tabs" role="tablist" aria-label="Article language">
+      <button
+        class="language-tab active"
+        id="english-tab"
+        type="button"
+        role="tab"
+        aria-selected="true"
+        aria-controls="english-panel"
+        onclick="showLanguage('english')"
+      >
+        English
+      </button>
+
+      <button
+        class="language-tab"
+        id="turkish-tab"
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="turkish-panel"
+        onclick="showLanguage('turkish')"
+      >
+        Türkçe
+      </button>
+    </div>
+
+    <article
+      id="english-panel"
+      class="language-panel active"
+      role="tabpanel"
+      aria-labelledby="english-tab"
+      lang="en"
+    >
+      <h1 class="perspective-title">When I Saw the Asclepius of Aspendos...</h1>
+
+      <div class="perspective-meta">
+        <span>07 August 2026</span>
+        <span>Halil Mert Erdoğan</span>
+      </div>
+
+      <div class="perspective-text">
+  <p>
+    When the recently discovered statues of Asclepius and Telesphoros from Aspendos were announced, they immediately took me back many years. I found myself remembering the excavation and restoration of the Sanctuary of Asclepius and Hygieia at Rhodiapolis, where I worked in 2009.
+  </p>
+
+  <p>
+    Perhaps this is one of the most rewarding aspects of archaeology. Sometimes a single artifact is enough to bring you back to an excavation, to long days among the stones, and to the people with whom you shared those experiences.
+  </p>
+
+  <p>
+    Rhodiapolis is unique because it is home to the only known Asklepieion identified in Lycia so far.
+  </p>
+
+  <p>
+    In the ancient world, Asklepieia were important healing sanctuaries where patients sought recovery through both religious rituals and the medical practices of their time. What makes Rhodiapolis especially remarkable is the physician Herakleitos, who not only dedicated a sanctuary to Asclepius and Hygieia but also established a library as part of the Asklepieion. Inscriptions identify this building as a <strong>medical library</strong>, suggesting that the site valued the preservation of medical knowledge alongside healing.
+  </p>
+
+  <p>
+    During the 2009 excavation season, most of the Asklepieion complex was uncovered. The complex was organized around a large courtyard with rooms originally designed for the treatment of patients. Excavations reached the original floor levels in all of these rooms. The evidence showed that they had been reused for different purposes in later periods. While the upper layers contained everyday household pottery, the original floors produced second-century AD coins, fragments of medical instruments, and contemporary pottery. These finds clearly connected the earliest phase of the building with its function as an Asklepieion.
+  </p>
+
+  <p>
+    The library beside the Asklepieion was another major focus of our work that year. Although its function had already been confirmed by an inscription discovered in 2007, the excavation revealed many new details. According to the inscription, Herakleitos designed the building as a medical library together with the Asklepieion. Unfortunately, it had been heavily damaged by looting, and its statue base had even been blown apart with explosives. During the excavation, the scattered architectural blocks were carefully documented, studied, and returned to their original positions. Symmetrical wall niches and traces of thin marble revetment also helped us better understand the building's original appearance.
+  </p>
+
+<figure class="perspective-figure">
+  <img
+    src="../assets/essays/rhodiapolis-library.png"
+    alt="The medical library at the Asklepieion of Rhodiapolis"
+  >
+  <figcaption>
+    The medical library of the Rhodiapolis Asklepieion after excavation and restoration.
+  </figcaption>
+</figure>
+
+  <p><em>(While working on this building, I was also trying to learn how to drive a tractor. One day, I came dangerously close to driving it over a cliff. Perhaps that experience is one of the reasons why I still do not have a driver's license.)</em></p>
+
+  <p>
+    Another important part of that season was the excavation of the Sanctuary of Asclepius and Hygieia itself. Like many other structures at the site, it had suffered extensive damage from illegal excavations. Its façade had completely collapsed, and architectural blocks were scattered across the area. During the restoration, the blocks were documented, studied, and, whenever possible, returned to their original locations.
+  </p>
+
+<figure class="perspective-figure">
+  <img
+    src="../assets/essays/rhodiapolis-temple.png"
+    alt="The Sanctuary of Asclepius and Hygieia at Rhodiapolis"
+  >
+  <figcaption>
+    The Sanctuary of Asclepius and Hygieia at Rhodiapolis after excavation and restoration.
+  </figcaption>
+</figure>
+
+  <p>
+    One of the most interesting discoveries was the statue base along the rear wall. It preserved two separate settings—one circular and one rectangular. Based on their form and the architectural evidence, they were interpreted as the positions of the statues of Hygieia and Asclepius. At the time, however, only the bases remained. The statues themselves had long since disappeared.
+  </p>
+
+  <p>
+    Looking at the newly discovered statues from Aspendos, I could not help thinking of those empty bases at Rhodiapolis. Different cities, different stories... This is often how archaeology works. A discovery in one place can suddenly remind you of another site you excavated years ago. Over time, pieces that once seemed unrelated begin to come together and form a much larger story.
+  </p>
+
+  <p>
+    Perhaps that is why archaeology is not only about uncovering the past. It is also about seeing what we already know from a new perspective.
+  </p>
+
+  <p>
+    After many years, excavations have finally resumed at Rhodiapolis this season. I sincerely wish the new team every success, and I hope they make many important discoveries while preserving the archaeological context that gives those finds their true meaning.
+  </p>
+
+  <hr class="perspective-divider">
+
+  <p><strong>Note:</strong> The photographs of Rhodiapolis used in this article are taken from <strong>ANMED 2010-8</strong>. Their image quality has been enhanced with the assistance of AI-based image restoration tools.</p>
+
+  <p class="perspective-signature">HME.</p>
+      </div>
+    </article>
+
+    <article
+      id="turkish-panel"
+      class="language-panel"
+      role="tabpanel"
+      aria-labelledby="turkish-tab"
+      lang="tr"
+    >
+      <h1 class="perspective-title">Aspendos Asklepios’unu Görünce...</h1>
+
+      <div class="perspective-meta">
+        <span>7 Ağustos 2026</span>
+        <span>Halil Mert Erdoğan</span>
+      </div>
+
+      <div class="perspective-text">
+      <p>
+    Aspendos Kazıları'nda gün yüzüne çıkarılan Asklepios ve Telesphoros heykellerini görünce, aklım bir anda yıllar öncesine gitti. 2009 yılında kazısını ve restorasyonunu gerçekleştirdiğimiz Rhodiapolis Asklepios ve Hygeia Tapınağı'nı yeniden hatırladım.
+  </p>
+
+  <p>
+    Arkeolojinin en güzel yanlarından biri de belki budur. Bazen tek bir eser, sizi yıllar öncesindeki bir kazıya, taşların arasındaki uzun çalışma günlerine ve birlikte emek verdiğiniz insanlara götürmeye yeter.
+  </p>
+
+  <p>
+    Rhodiapolis'i diğer birçok antik kentten ayıran en önemli özelliklerden biri, Lykia Bölgesi'nde bugüne kadar tespit edilmiş tek Asklepion'a ev sahipliği yapmasıdır.
+  </p>
+
+  <p>
+    Antik dünyanın sağlık merkezleri olan Asklepionlar, hastaların hem dinsel ritüeller hem de dönemin tıbbi uygulamalarıyla şifa aradığı önemli yapılardı. Rhodiapolis'i benzerlerinden ayıran unsur ise, burada yaşamış ünlü hekim Herakleitos'un yalnızca Asklepios ve Hygeia'ya adanan tapınağı yaptırmış olması değil; aynı zamanda Asklepion'un bir parçası olarak bir kütüphane de inşa ettirmiş olmasıdır. Yazıtlar sayesinde bu yapının bir <strong>tıp kütüphanesi</strong> olduğu anlaşılmaktadır. Bu ayrıntı, buranın tedavinin yanı sıra tıbbi bilginin korunmasına da önem veren seçkin bir merkez olduğunu düşündürmektedir.
+  </p>
+
+  <p>
+    2009 yılında yürüttüğümüz çalışmalar sırasında Asklepion kompleksinin büyük bölümü ortaya çıkarılmıştı. Geniş bir avlu etrafında düzenlenen yapı topluluğunda hasta odaları olarak tasarlanmış mekânlar kazıldı ve tamamında özgün zemine ulaşıldı. Kazılar, bu odaların ilerleyen dönemlerde farklı amaçlarla yeniden kullanıldığını gösteriyordu. Üst dolgulardan mutfak kapları ve günlük kullanım eşyaları gelirken, özgün zemin seviyelerinde ise İ.S. 2. yüzyıla tarihlenen sikkeler, tıbbi alet parçaları ve aynı döneme ait seramikler ele geçmişti. Bu buluntular, yapının ilk kullanım evresinin Asklepion işleviyle doğrudan ilişkili olduğunu göstermesi açısından oldukça önemliydi.
+  </p>
+
+  <p>
+    Asklepion'un hemen yanında yer alan kütüphane de o yıl üzerinde çalıştığımız en önemli yapılardan biriydi. Aslında yapının kütüphane olduğu, 2007 yılında bulunan bir yazıt sayesinde kesinlik kazanmıştı. Yazıta göre Herakleitos tarafından Asklepion ile birlikte bir tıp kütüphanesi olarak tasarlanmıştı. Yapı, kaçak kazılar sırasında büyük ölçüde tahrip edilmiş; özellikle heykel kaidesi dinamitle parçalanmış, bloklar çevreye saçılmıştı. Kazılar sırasında bu bloklar tek tek belgelenmiş, restitüsyonları hazırlanmış ve vinç yardımıyla yeniden özgün yerlerine yerleştirilmişti. İç duvarlarda yer alan simetrik nişler ile bunların ince mermer levhalarla kaplı olduğunu gösteren mimari buluntular da yapının özgün görünümünü anlamamıza önemli katkılar sağlamıştı.
+  </p>
+
+<figure class="perspective-figure">
+  <img
+    src="../assets/essays/rhodiapolis-library.png"
+    alt="Rhodiapolis Asklepionu tıp kütüphanesi"
+  >
+  <figcaption>
+    Rhodiapolis Asklepionu'nda yer alan tıp kütüphanesi.
+  </figcaption>
+</figure>
+
+  <p><em>(Bu yapının kazısı sırasında traktör kullanmayı da öğrenmeye çalışıyordum. Hatta bir gün az kalsın uçurumdan yuvarlanıyordum. Belki de bugün hâlâ ehliyet almamış olmamın sebeplerinden biri budur.)</em></p>
+
+  <p>
+    Aynı yıl yürüttüğümüz çalışmaların önemli bir ayağını da Asklepios ve Hygeia Tapınağı oluşturuyordu. Tapınak da yoğun kaçak kazılar nedeniyle ciddi biçimde tahrip edilmiş durumdaydı. Cephe tamamen yıkılmış, mimari bloklar çevreye dağılmıştı. Kazılar sırasında yapı belgelenmiş, blokların restitüsyonu yapılarak özgün konumları belirlenmiş ve korunabilen parçalar yeniden yerlerine yerleştirilmişti.
+  </p>
+
+<figure class="perspective-figure">
+  <img
+    src="../assets/essays/rhodiapolis-temple.png"
+    alt="Rhodiapolis Asklepios ve Hygeia Tapınağı"
+  >
+  <figcaption>
+    Rhodiapolis Asklepios ve Hygeia Tapınağı.
+  </figcaption>
+</figure>
+
+  <p>
+    En dikkat çekici ayrıntılardan biri ise arka duvarda bulunan heykel kaidesiydi. Kaide üzerinde biri yuvarlak, diğeri dörtgen biçimli iki farklı oturma izi bulunuyordu. Giysi düzenlemesi ve mimari veriler değerlendirildiğinde bunların büyük olasılıkla Hygeia ve Asklepios heykellerine ait olduğu düşünülmüştü. O gün elimizde yalnızca bu izler vardı; heykeller ise çoktan kaybolmuştu.
+  </p>
+
+  <p>
+    Bugün Aspendos'ta ortaya çıkarılan Asklepios ve Telesphoros heykellerine bakarken ister istemez Rhodiapolis'teki o boş kaide gözümün önüne geldi. Farklı kentler, farklı hikâyeler... Arkeoloji bazen tam da böyle çalışıyor. Bir kentte bulunan bir eser, başka bir kentte yıllar önce kazdığınız bir yapıyı yeniden hatırlatıyor; birbirinden bağımsız gibi görünen parçalar zamanla zihninizde birleşerek daha büyük bir hikâyenin parçası hâline geliyor.
+  </p>
+
+  <p>
+    Belki de bu yüzden arkeoloji yalnızca geçmişi ortaya çıkarmak değildir. Aynı zamanda geçmişte gördüklerimizi, bugün öğrendiklerimizle yeniden okumaktır.
+  </p>
+
+  <p>
+    Uzun zamandır Rhodiapolis'te çalışma yapılmıyordu. Bu sezon yeni bir ekip çalışmalara başladı. Kendilerine başarılar diliyorum. Buluntusu, bağlamı bol olsun.
+  </p>
+
+  <hr class="perspective-divider">
+
+  <p><strong>Not:</strong> Bu yazıda kullanılan Rhodiapolis fotoğrafları <strong>ANMED 2010-8</strong> yayınından alınmıştır. Fotoğraf kalitelerini artırmak amacıyla yapay zekâ destekli görüntü iyileştirme araçlarından yararlanılmıştır.</p>
+
+  <p class="perspective-signature">HME.</p>
+      </div>
+    </article>
+
+  </main>
+
+  <script>
+    function showLanguage(language) {
+      const showEnglish = language === "english";
+
+      document
+        .getElementById("english-panel")
+        .classList.toggle("active", showEnglish);
+
+      document
+        .getElementById("turkish-panel")
+        .classList.toggle("active", !showEnglish);
+
+      document
+        .getElementById("english-tab")
+        .classList.toggle("active", showEnglish);
+
+      document
+        .getElementById("turkish-tab")
+        .classList.toggle("active", !showEnglish);
+
+      document
+        .getElementById("english-tab")
+        .setAttribute("aria-selected", String(showEnglish));
+
+      document
+        .getElementById("turkish-tab")
+        .setAttribute("aria-selected", String(!showEnglish));
+
+      document.documentElement.lang = showEnglish ? "en" : "tr";
+    }
+  </script>
+
+</body>
+</html>
